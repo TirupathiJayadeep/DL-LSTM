@@ -9,38 +9,30 @@ To develop an LSTM-based model for recognizing the named entities in the text.
 ## Neural Network Model
 Include the neural network model diagram.
 
-## DESIGN STEPS
-### STEP 1: 
+### DESIGN STEPS
+## STEP 1:
+Load data, create word/tag mappings, and group sentences.
 
-Write your own steps
+## STEP 2:
+Convert sentences to index sequences, pad to fixed length, and split into training/testing sets.
 
-### STEP 2: 
+## STEP 3:
+Define dataset and DataLoader for batching.
 
+## STEP 4:
+Build a bidirectional LSTM model for sequence tagging.
 
+## STEP 5:
+Train the model over multiple epochs, tracking loss.
 
-### STEP 3: 
-
-
-
-### STEP 4: 
-
-
-
-### STEP 5: 
-
-
-
-### STEP 6: 
-
-
-
-
+## STEP 6:
+Evaluate model accuracy, plot loss curves, and visualize predictions on a sample.
 
 ## PROGRAM
 
-### Name:
+### Name: Tirupathi Jayadeep
 
-### Register Number:
+### Register Number:212223240169
 
 ```python
 class BiLSTMTagger(nn.Module):
